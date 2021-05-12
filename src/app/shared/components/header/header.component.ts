@@ -58,6 +58,7 @@ export class HeaderComponent implements OnInit {
    });
   }
   logout(): void {
+    debugger
     localStorage.removeItem("token");
     this.authService.isUserLoggedIn$.next(false);
     this.router.navigate(["login"]);

@@ -12,6 +12,7 @@ export const environment = {
   apiauth: '/auth',
   apiauthsignup: '/auth/signup',
   apiauthlogin: '/auth/admin',
+  apiagentlogin:'/auth/agent',
   getname: '/auth/roleid/RoleID:2',
   apiauthpassword: '/auth/password',
   apicaasefileupload: 'http://localhost:3000',
